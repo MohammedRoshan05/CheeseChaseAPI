@@ -11,6 +11,7 @@ public interface APIService {
 
     @GET("/image")
     Call<ResponseBody> getImage(@Query("character") String character);
+//    awrhag
 
 
 }

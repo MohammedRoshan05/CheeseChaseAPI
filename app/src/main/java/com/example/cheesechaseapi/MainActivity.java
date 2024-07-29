@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+//        sBr
         new APICall().getImage(this, new APICall.ImageCallback() {
             @Override
             public void onResponse(Bitmap bitmap) {
